@@ -3,6 +3,20 @@ import { useMemo, useRef, useState } from 'react';
 import RomanticIllustration from './RomanticIllustration.jsx';
 import { useRunawayButton } from '../hooks/useRunawayButton.js';
 
+const proposalMessage = `I know you hate men, and maybe you have every reason to.
+
+Even as a man, I know how cruel and disappointing some men can be.
+
+But I hope you'll believe that you've never met an idiot this hopelessly in love.
+
+I'm not asking you to trust every man. I'm only asking you to trust this one insolent human being just once.
+
+I'd give you the moon if I could. I'd bleed myself dry before I'd ever let you carry your pain alone. Every version of my future has you in it.
+
+So here's to trusting an idiot.
+
+Will you be my girl?`;
+
 const teasingMessages = [
   'Are you sureee? 🥺',
   'Please? ❤️',
@@ -58,7 +72,7 @@ export default function ProposalPage({ onYes }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.65 }}
         >
-          Maha...
+          Fariha...
         </motion.h1>
 
         <motion.div
@@ -85,19 +99,7 @@ export default function ProposalPage({ onYes }) {
         >
           <div>
             <p className="mx-auto mt-3 max-w-2xl whitespace-pre-line text-base font-semibold leading-8 text-rose-700 sm:text-lg md:mx-0">
-              {`You once said falling in love feels dangerous.
-
-Maybe it is.
-
-But if there's anyone I'd happily take that risk with...
-
-it's you.
-
-From random smiles across MIST to our little dates, you've quietly become my favorite part of the week.
-
-So here's me taking my own risk...
-
-Will you be my girlfriend? ❤️`}
+              {proposalMessage}
             </p>
           </div>
 

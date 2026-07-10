@@ -4,7 +4,7 @@ setlocal
 cd /d "%~dp0"
 
 echo.
-echo Starting Maha and Rakin proposal website...
+echo Starting Fariha and Rakin proposal website...
 echo.
 
 if not exist "node_modules" (

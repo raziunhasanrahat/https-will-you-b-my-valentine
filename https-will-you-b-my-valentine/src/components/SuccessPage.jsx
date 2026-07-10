@@ -2,13 +2,11 @@ import { motion } from 'framer-motion';
 
 const successMessage = `Well...
 
-I guess I don't have to ask if you're single anymore. 😌
+Thank you, my babygirl.
 
-Thank you for taking this risk with me.
+Thank you for trusting me. I promise I'll protect that trust against the whole wide world and never take it for granted.
 
-Looks like I get to call you my girlfriend now.
-
-I love you darling <3`;
+I love you, darling. Thank you for choosing me. :3`;
 
 export default function SuccessPage() {
   return (
@@ -34,16 +32,6 @@ export default function SuccessPage() {
           transition={{ delay: 0.25 }}
         >
           {successMessage}
-        </motion.p>
-
-        <motion.p
-          className="mt-8 whitespace-pre-line font-script text-4xl leading-relaxed text-pink-500"
-          initial={{ opacity: 0, scale: 0.96 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.75 }}
-        >
-          {`Love,
-Rakin ❤️`}
         </motion.p>
       </motion.div>
     </div>

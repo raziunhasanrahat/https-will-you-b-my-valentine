@@ -15,7 +15,7 @@ export default function LandingPage({ onContinue }) {
           animate={{ scale: [1, 1.035, 1] }}
           transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          Hi Maha ❤️
+          Hi Fariha ❤️
         </motion.p>
         <p className="mx-auto max-w-xl text-base font-medium leading-7 text-rose-700 sm:text-xl">
           I&apos;ve been wanting to ask you something...

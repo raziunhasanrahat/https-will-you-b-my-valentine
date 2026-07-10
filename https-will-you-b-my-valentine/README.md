@@ -1,6 +1,6 @@
-# Maha + Rakin Proposal Website
+# Fariha + Rakin Proposal Website
 
-A complete original React, Vite, and Tailwind CSS proposal experience for Maha from Rakin.
+A complete original React, Vite, and Tailwind CSS proposal experience for Fariha from Rakin.
 
 ## Features
 
