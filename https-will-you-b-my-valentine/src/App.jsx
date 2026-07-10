@@ -7,6 +7,7 @@ import CursorHearts from './components/CursorHearts.jsx';
 import LandingPage from './components/LandingPage.jsx';
 import ProposalPage from './components/ProposalPage.jsx';
 import SuccessPage from './components/SuccessPage.jsx';
+import { notifyYesClick } from './utils/notifyYes.js';
 
 const pages = {
   landing: LandingPage,
@@ -54,6 +55,7 @@ export default function App() {
 
   const handleYes = useCallback(() => {
     celebrate();
+    notifyYesClick();
     window.setTimeout(() => setPage('success'), 1050);
   }, [celebrate]);
 
